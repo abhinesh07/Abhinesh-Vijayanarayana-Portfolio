@@ -1,0 +1,227 @@
+#body{
+    background-color: red;
+}
+
+#redcolor
+{
+    color: rgb(255, 0, 0);
+}
+
+#center
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-link{
+    display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+    #hide {
+      display: none;
+    }
+    .hide {
+        display: none;
+      }
+  }
+
+  .ul {
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+  }
+  
+  #li {
+    display: inline;
+    margin-bottom: 10px;
+  }
+
+  ul {
+  
+    padding: 0;
+  }
+    
+  li {
+    margin-bottom: 10px;
+  }
+
+  
+  .fade-in-right {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out; 
+  }
+
+  /** hide***/
+  .hidden 
+  {
+   display: none;
+  }
+
+  #hidefull {
+    display: none;
+  }
+
+
+  .con {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+  
+  .con:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  /***fade***/
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fade-right {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .fade-right.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-right1 {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 1s, transform 2s;
+  }
+  
+  .fade-right1.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-right2 {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 1s, transform 3s;
+  }
+  
+  .fade-right2.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-right3 {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 1s, transform 4s;
+  }
+  
+  .fade-right3.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-right4 {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 1s, transform 5s;
+  }
+  
+  .fade-right4.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-right5 {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 1s, transform 6s;
+  }
+  
+  .fade-right5.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-left {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 1s, transform 3s;
+  }
+  
+  .fade-left.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fade-left1 {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 1s, transform 4s;
+  }
+  
+  .fade-left1.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+
+  #hover:hover{
+    background-color: #ffffff;
+    color:#000000 ;
+  }
+
+
+   
